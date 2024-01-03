@@ -42,6 +42,11 @@ body {
     padding: 20px;
     border: 2px solid var(--Black);
     border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.blog-card:hover {
+    box-shadow: 12px 12px rgba(0, 0, 0, 1);
 }
 
 /* blog image */
@@ -60,6 +65,11 @@ body {
     margin-bottom: 15px;
     font-weight: 600;
     font-size: 13px;
+    transition: 0.3s ease-in-out;
+}
+
+.blog-status:hover {
+    box-shadow: 6px 6px rgba(0, 0, 0, 1);
 }
 
 /* published date */
