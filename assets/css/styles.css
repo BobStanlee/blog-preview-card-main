@@ -37,8 +37,7 @@ body {
 
 /* blog card */
 .blog-card {
-    min-width: 300px;
-    max-width: 375px;
+    width: 375px;
     background-color: var(--white);
     padding: 20px;
     border: 2px solid var(--Black);
@@ -97,4 +96,10 @@ body {
 /* publisher name  */
 .publisher-name {
     font-weight: 600;
+}
+
+@media(max-width: 375px) {
+    .blog-card {
+        width: 300px;
+    }
 }
