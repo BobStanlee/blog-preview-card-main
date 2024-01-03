@@ -65,7 +65,7 @@ body {
 
 /* published date */
 .blog-published-date {
-    font-weight: 400;
+    font-weight: 300;
     font-size: 14px;
     margin-bottom: 15px;
 }
@@ -74,4 +74,27 @@ body {
 .blog-title {
     font-size: 24px;
     margin-bottom: 15px;
+}
+
+/* blog description */
+.blog-description {
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+/* Blog Publisher Details */
+.blog-publisher {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+/* publisher image  */
+.publisher-image {
+    width: 40px;
+}
+
+/* publisher name  */
+.publisher-name {
+    font-weight: 600;
 }
