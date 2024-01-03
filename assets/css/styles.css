@@ -42,4 +42,10 @@ body {
     padding: 20px;
     border: 2px solid var(--Black);
     border-radius: 20px;
-}   
+}
+
+/* blog image */
+.blog-image {
+    width: 100%;
+    border-radius: 15px;
+}
